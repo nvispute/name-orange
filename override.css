@@ -1,0 +1,117 @@
+/* For Devices having maximum width of 575px  */
+
+@media (max-width: 575px) {
+  /* Hero Section Overrides */
+  .u-section-1 .u-text-1 {
+    font-size: 2.65rem;
+    letter-spacing: 2px;
+    font-style: normal;
+    margin: 17px 0 0 44px;
+  }
+
+  /* About us Section Overrides */
+  .u-section-2 .u-text-2 {
+    font-size: 1rem;
+  }
+
+  /* Call to Action Btn Overrides */
+  .u-section-3.u-text-1 {
+    margin: 0px 0px;
+  }
+  .u-section-3 .u-btn-1 {
+    margin: auto auto;
+  }
+
+  /* Advisory Committee & Management Team Card OVerrides */
+
+  /* Section Heading / Title */
+  .u-section-4 .u-text-1 {
+    font-size: 2.25rem;
+    margin-right: 0;
+    margin-left: 52px;
+  }
+
+  /* Images */
+  .u-section-4 .u-image-1,
+  .u-section-4 .u-image-2,
+  .u-section-4 .u-image-3,
+  .u-section-4 .u-image-4,
+  .u-section-5 .u-image-1,
+  .u-section-5 .u-image-2 {
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+  }
+
+  /* Text-containers */
+  .u-section-4 .u-group-1,
+  .u-section-4 .u-group-2,
+  .u-section-4 .u-group-3,
+  .u-section-4 .u-group-4,
+  .u-section-5 .u-group-1,
+  .u-section-5 .u-group-2 {
+    margin: 0px;
+    width: 100%;
+  }
+
+  /* Team Member Name */
+  .u-section-4 .u-text-2,
+  .u-section-4 .u-text-8,
+  .u-section-4 .u-text-5,
+  .u-section-4 .u-text-11,
+  .u-section-5 .u-text-1,
+  .u-section-5 .u-text-4 {
+    text-align: center;
+  }
+
+  /* Social Icon Row */
+  .u-section-4 .u-social-icons-2,
+  .u-section-4 .u-social-icons-3,
+  .u-section-4 .u-social-icons-4,
+  .u-section-4 .u-social-icons-5,
+  .u-section-5 .u-social-icons-1,
+  .u-section-5 .u-social-icons-2 {
+    margin: auto auto;
+  }
+  /* Team Into Para */
+  .u-section-4 .u-text-3,
+  .u-section-4 .u-text-6,
+  .u-section-4 .u-text-9,
+  .u-section-4 .u-text-12,
+  .u-section-5 .u-text-2,
+  .u-section-5 .u-text-5 {
+    margin: auto auto;
+    text-align: justify;
+  }
+
+  /* Contact Us Section */
+  .u-section-6 .u-sheet-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .u-section-6 .u-text-1 {
+    font-size: 2.25rem;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .u-section-6 .u-social-icons-1{
+    margin: auto auto;
+    margin-top: 20px;
+  }
+
+
+
+  /* Footer Section */
+  .u-footer .u-text-1 {
+    font-size: 1.25rem;
+    margin: auto auto;
+    margin-top: 20px;
+  }
+  .u-footer .u-menu-1 {
+    display: none;
+  }
+}
