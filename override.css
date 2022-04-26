@@ -1,6 +1,9 @@
 /* For Devices having maximum width of 575px  */
 
 @media (max-width: 575px) {
+  /* body {
+    position: fixed;
+  } */
   /* Hero Section Overrides */
   .u-section-1 .u-text-1 {
     font-size: 2.65rem;
@@ -98,12 +101,10 @@
     padding: 20px;
     text-align: center;
   }
-  .u-section-6 .u-social-icons-1{
+  .u-section-6 .u-social-icons-1 {
     margin: auto auto;
     margin-top: 20px;
   }
-
-
 
   /* Footer Section */
   .u-footer .u-text-1 {
@@ -113,5 +114,25 @@
   }
   .u-footer .u-menu-1 {
     display: none;
+  }
+
+  /* Modal-Popups */
+  .u-dialog-section-9 .u-dialog-1 {
+    width: 90%;
+    height: 80%;
+    margin: 10px auto 10px;
+  }
+  .u-dialog-section-9 .u-container-layout-1 {
+    padding: 20px;
+    overflow: auto;
+  }
+  .u-dialog-section-9 .u-image-1 {
+    display: none;
+  }
+  .u-dialog-section-9 .u-text-1 {
+    margin: 0px;
+  }
+  .u-dialog-section-9 .u-text-3 {
+    text-align: justify;
   }
 }
