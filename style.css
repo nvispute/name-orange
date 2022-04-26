@@ -10,6 +10,7 @@
 
 .u-dialog-section-9 .u-container-layout-1 {
   padding: 61px 0 0;
+  overflow: auto;
 }
 
 .u-dialog-section-9 .u-image-1 {
@@ -81,6 +82,7 @@
 
   .u-dialog-section-9 .u-container-layout-1 {
     padding-top: 70px;
+    overflow: auto;
   }
 
   .u-dialog-section-9 .u-image-1 {
@@ -113,6 +115,7 @@
     padding-top: 65px;
     padding-left: 30px;
     padding-right: 30px;
+    overflow: auto;
   }
 
   .u-dialog-section-9 .u-image-1 {
@@ -141,6 +144,7 @@
   .u-dialog-section-9 .u-container-layout-1 {
     padding-left: 25px;
     padding-right: 25px;
+    overflow: auto;
   }
 
   .u-dialog-section-9 .u-image-1 {
