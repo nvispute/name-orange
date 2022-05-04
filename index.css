@@ -1502,7 +1502,7 @@ body::-webkit-scrollbar-thumb {
 .u-section-6 .u-text-1 {
   font-size: 2.25rem;
   font-weight: 400;
-  margin: 20px 0 60px auto;
+  margin: 20px 0 20px auto;
 }
 
 .u-section-6 .u-shape-1 {
@@ -1514,7 +1514,8 @@ body::-webkit-scrollbar-thumb {
 .u-section-6 .u-list-1 {
   grid-template-rows: auto auto;
   width: 1140px;
-  margin: -324px auto 60px calc(((100% - 1140px) / 2) + -6px);
+  margin: 18px auto 0;
+  /* margin: -324px auto 60px calc(((100% - 1140px) / 2) + -6px); */
 }
 
 .u-section-6 .u-repeater-1 {
