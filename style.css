@@ -1,34 +1,35 @@
- .u-dialog-section-10 {
-  min-height: 826px;
+.u-dialog-section-11 {
+  height: 826px;
 }
 
-.u-dialog-section-10 .u-dialog-1 {
+.u-dialog-section-11 .u-dialog-1 {
   width: 984px;
-  min-height: 455px;
-  margin: 99px auto 60px;
+  height: 575px;
+  margin: 60px auto;
+  overflow-x: scroll;
 }
 
-.u-dialog-section-10 .u-container-layout-1 {
+.u-dialog-section-11 .u-container-layout-1 {
   padding: 15px 0;
 }
 
-.u-dialog-section-10 .u-text-1 {
-  font-weight: normal;
-  font-size: 1.5rem;
-  margin: 9px 600px 0 30px;
+.u-dialog-section-11 .u-text-1 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin: 9px auto 0 30px;
 }
 
-.u-dialog-section-10 .u-image-1 {
+.u-dialog-section-11 .u-image-1 {
   height: 148px;
   width: 146px;
   margin: 30px auto 0 30px;
 }
 
-.u-dialog-section-10 .u-text-2 {
+.u-dialog-section-11 .u-text-2 {
   margin: -148px 58px 0 188px;
 }
 
-.u-dialog-section-10 .u-icon-1 {
+.u-dialog-section-11 .u-icon-1 {
   width: 31px;
   height: 31px;
   background-image: none;
@@ -39,29 +40,27 @@
 }
 
 @media (max-width: 1199px) {
-  .u-dialog-section-10 .u-dialog-1 {
+  .u-dialog-section-11 .u-dialog-1 {
     width: 940px;
-    height: auto;
+    height: -webkit-fill-available;
   }
 
-  .u-dialog-section-10 .u-container-layout-1 {
+  .u-dialog-section-11 .u-container-layout-1 {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .u-dialog-section-10 .u-text-1 {
-    width: auto;
+  .u-dialog-section-11 .u-text-1 {
     margin-top: 19px;
-    margin-right: 746px;
     margin-left: 12px;
   }
 
-  .u-dialog-section-10 .u-image-1 {
+  .u-dialog-section-11 .u-image-1 {
     margin-top: 43px;
     margin-left: 20px;
   }
 
-  .u-dialog-section-10 .u-text-2 {
+  .u-dialog-section-11 .u-text-2 {
     width: auto;
     margin-right: 43px;
     margin-left: 187px;
@@ -69,51 +68,53 @@
 }
 
 @media (max-width: 991px) {
-  .u-dialog-section-10 .u-dialog-1 {
+  .u-dialog-section-11 .u-dialog-1 {
     width: 720px;
-    min-height: 591px;
+    min-height: 550px;
   }
 
-  .u-dialog-section-10 .u-text-1 {
-    margin-top: 18px;
-    margin-right: 494px;
+  .u-dialog-section-11 .u-text-1 {
+    width: auto;
+    margin-top: 27px;
+    margin-left: 20px;
+  }
+
+  .u-dialog-section-11 .u-image-1 {
+    height: 148px;
+    margin-top: 10px;
     margin-left: 21px;
   }
 
-  .u-dialog-section-10 .u-image-1 {
-    margin-top: -32px;
-    margin-left: 0;
-  }
-
-  .u-dialog-section-10 .u-text-2 {
-    margin-top: 42px;
-    margin-left: 21px;
-    margin-right: 21px;
+  .u-dialog-section-11 .u-text-2 {
+    margin: 36px;
+    /* margin-top: 36px; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
   }
 }
 
 @media (max-width: 767px) {
-  .u-dialog-section-10 .u-dialog-1 {
+  .u-dialog-section-11 .u-dialog-1 {
     width: 540px;
     min-height: 769px;
   }
 
-  .u-dialog-section-10 .u-container-layout-1 {
+  .u-dialog-section-11 .u-container-layout-1 {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .u-dialog-section-10 .u-text-1 {
+  .u-dialog-section-11 .u-text-1 {
     margin-top: 15px;
-    margin-right: 263px;
     margin-left: 0;
   }
 
-  .u-dialog-section-10 .u-image-1 {
+  .u-dialog-section-11 .u-image-1 {
     margin-top: -104px;
+    margin-left: 21px;
   }
 
-  .u-dialog-section-10 .u-text-2 {
+  .u-dialog-section-11 .u-text-2 {
     margin-top: 42px;
     margin-left: 0;
     margin-right: 0;
@@ -121,26 +122,26 @@
 }
 
 @media (max-width: 575px) {
-  .u-dialog-section-10 .u-dialog-1 {
+  .u-dialog-section-11 .u-dialog-1 {
     width: 328px;
-    min-height: 1072px;
-    margin-left: calc(((100% - 340px) / 2));
+    min-height: -webkit-fill-available;
   }
 
-  .u-dialog-section-10 .u-container-layout-1 {
-    padding: 65px 25px 30px;
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding: 18px 25px;
+    overflow: scroll;
   }
 
-  .u-dialog-section-10 .u-text-1 {
+  .u-dialog-section-11 .u-text-1 {
+    font-size: 1.5rem;
     margin-top: 0;
-    margin-right: 84px;
   }
 
-  .u-dialog-section-10 .u-image-1 {
+  .u-dialog-section-11 .u-image-1 {
     margin-top: -52px;
   }
 
-  .u-dialog-section-10 .u-text-2 {
-    margin-top: 34px;
+  .u-dialog-section-11 .u-text-2 {
+    margin-top: 20px;
   }
 }
