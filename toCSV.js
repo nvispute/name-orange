@@ -54,12 +54,11 @@ if (contactForm) {
       body: formData,
     };
 
-    fetch("/", options)
-      .then(function (response) {
-        window.location.assign(theForm.action);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+    fetch("/", options).catch(function (error) {
+      console.log(error);
+    });
+    // .then(function (response) {
+    //   window.location.assign(theForm.action);
+    // })
   });
 }
